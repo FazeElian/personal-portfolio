@@ -1,0 +1,208 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 3.5rem 8rem 2.7rem;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+    font-family: "Montserrat", serif;
+}
+
+.nav-logo {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+}
+    
+    .btn-nav-logo {
+        display: none;
+    }
+
+.nav-menu {
+    display: flex;
+    width: 75%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .nav-list {
+        display: flex;
+        width: 70%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        list-style: none;
+    }
+
+        .item-nav-list a {
+            display: flex;
+            color: #BFBFBF;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 450;
+            transition: .25s ease all;
+        }
+
+            .item-nav-list a img {
+                display: none;
+            }
+
+            .item-nav-list a:hover {
+                color: #F5F8FF;
+                transition: .25s ease all;
+            }
+
+    .nav-lang-mode {
+        display: flex;
+        width: 30%;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1rem;
+    }
+
+        .btn-nav-lang-mode {
+            width: auto;
+            height: auto;
+            border: none;
+            cursor: pointer;
+        }
+
+            .btn-nav-lang-mode img {
+                width: 25px;
+                height: 25px;
+            }
+
+            .btn-nav-lang-mode h2 {
+                display: none;
+            }
+
+.btn-tgl-menu {
+    display: none;
+}
+
+/* Responsive 1440px */
+@media screen and (max-width: 1440px) {
+    .header {
+        padding: 3.5rem 7rem 2.7rem;
+    }
+
+    .item-nav-list a {
+        font-size: 14px;
+    }
+
+    .btn-nav-lang-mode img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* Responsive 1280px */
+@media screen and (max-width: 1280px) {
+    .header {
+        padding: 1.8rem 5.5rem 1.8rem;
+        border-bottom: 1px solid #BFBFBF;
+    }
+
+    .nav-menu {
+        display: flex;
+        position: absolute;
+        top: 5rem;
+        width: 280px;
+        height: --webkit-fill-available;
+        min-height: 82vh;
+        overflow: auto;
+        transition: .3s;
+        transform: translateX(-100%);
+        left: 0;
+        padding: 3rem;
+        z-index: 2;
+        opacity: 0;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: "Poppins", serif;
+        border-right: 1px solid #BFBFBF;
+    }
+
+        .nav-menu.active {
+            transform: translate(0) !important;
+            opacity: 1;
+        }
+    
+        .nav-list,
+        .nav-lang-mode {
+            width: 100%;
+            flex-direction: column;
+            height: auto;
+            align-items: flex-start;
+        }
+
+        .nav-list {
+            gap: 2rem;
+            height: 65%;
+            justify-content: flex-start;
+        }
+
+        .nav-lang-mode {
+            height: 35%;
+        }
+
+        .item-nav-list a {
+            font-size: 15px;
+            color: white;
+            font-weight: 400;
+        }
+  
+            .item-nav-list a img {
+                display: flex;
+                width: 20px;
+                height: 20px;
+                margin-right: 8px;
+            }
+
+        .btn-nav-lang-mode {
+            display: flex;
+            width: 100%;
+            align-items: center;
+        }
+
+            .btn-nav-lang-mode h2 {
+                display: flex;
+                color: white;
+                margin-left: 10px;
+                font-size: 15px;
+                font-weight: 400;
+            }
+
+    .btn-tgl-menu {
+        display: flex;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+
+        .btn-tgl-menu img {
+            width: 30px;
+            height: 30px;
+        }
+}
+
+/* Responsive 768px */
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 24px 4rem 24px;
+    }
+}
+
+/* Responsive 425px */
+@media screen and (max-width: 425px) {
+    .header {
+        padding: 24px 36px 24px;
+    }
+}
