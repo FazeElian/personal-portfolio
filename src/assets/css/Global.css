@@ -30,6 +30,11 @@
 }
 
 /* Background colors */
+    /* Transparent */
+    .bg-transparent {
+        background: transparent;
+    }
+
     /* Dark mode */
     /* Black */
     .bg-black--dark-mode {
@@ -53,4 +58,43 @@
 
 .font-poppins {
     font-family: "Poppins", serif;
+}
+
+/* Content */
+.page-content {
+    padding-top: 8.5rem;
+}
+
+/* Text */
+    /* White */
+    .txt-white--dark-mode {
+        color: var(--white--dark-mode);
+    }
+
+    /* Gray */
+    .txt-gray--dark-mode {
+        color: var(--gray--dark-mode);
+    }
+
+    /* White - blue gradient */
+    .txt-white-blue-gradient--dark-mode {
+        color: transparent;
+        background: linear-gradient(90deg, var(--white--dark-mode), #0077b6, var(--white--dark-mode));
+        background-size: 200% 100%;
+        background-position: 100% 50%;
+        -webkit-background-clip: text;
+        color: transparent;
+        animation: gradientMovement 15s ease infinite;
+    }
+    
+@keyframes gradientMovement {
+    0% {
+        background-position: 200% 0%;
+    }
+    50% {
+        background-position: -200% 0%;
+    }
+    100% {
+        background-position: 200% 0%;
+    }
 }

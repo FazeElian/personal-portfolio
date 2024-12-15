@@ -1,13 +1,16 @@
 // Components
 import Header from "./components/Header";
-
-import "./assets/css/Global.css";
+import BannerPerson from "./components/BannerPerson";
 
 function App() {
   return (
     <>
       {/* View components */}
       <Header />
+
+      <main className="page-content">
+        <BannerPerson />
+      </main>
     </>
   );
 }

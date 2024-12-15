@@ -1,0 +1,130 @@
+.banner-person {
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 80vh;
+    background-image: url("../../img/BannerPersonBackground.png");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid #BFBFBF;
+    padding-bottom: 4rem;
+}
+
+    .banner-person img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    .banner-person h1 {
+        color: #F5F8FF;
+        margin: .5rem 0 0;
+        font-size: 35px;
+        font-weight: 550;
+    }
+
+    .banner-person h2 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .banner-person p {
+        width: 20%;
+        margin: 1rem 0 1.5rem;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .btn-cv {
+        display: flex;
+        width: auto;
+        height: auto;
+        border: 1px solid #4FC3F7;
+        border-radius: 2rem;
+        padding: 14px 3rem 14px;
+        align-items: center;
+        justify-content: center;
+        color: #BFBFBF;
+        font-size: 16px;
+        cursor: pointer;
+        gap: 10px;
+        transition: .2s ease-in-out;
+        text-decoration: none;
+    }
+
+        .btn-cv:hover {
+            color: white;
+            transition: .2s ease-in;
+            border: 1px solid white;
+        }
+
+/* Responsive 1440px */
+@media screen and (max-width: 1440px) {
+    .banner-person img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .banner-person h1 {
+        font-size: 32px;
+    }
+
+    .banner-person h2 {
+        font-size: 15px;
+    }
+
+    .banner-person p {
+        width: 25%;
+        font-size: 13px;
+    }
+
+    .btn-cv {
+        padding: 12px 2.8rem 12px;
+        font-size: 15px;
+    }
+}
+
+/* Responsive 1024px */
+@media screen and (max-width: 1024px) {
+    .banner-person p {
+        width: 35%;
+    }
+}
+
+/* Responsive 425px */
+@media screen and (max-width: 425px) {
+    .banner-person {
+        padding-bottom: 6rem;
+    }
+
+    .banner-person img {
+        width: 155px;
+        height: 155px;
+    }
+
+    .banner-person h1 {
+        font-size: 28px;
+    }
+
+    .banner-person h2 {
+        font-size: 14px;
+    }
+
+    .banner-person p {
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .btn-cv {
+        padding: 12px 2.8rem 12px;
+        font-size: 14px;
+    }
+
+    .btn-cv svg {
+        width: 15px;
+        height: 15px;
+        margin-top: -3px;
+    }
+}
