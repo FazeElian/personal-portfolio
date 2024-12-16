@@ -48,7 +48,7 @@ const Header = () => {
                         className="item-nav-list"
                         smooth={true}
                         duration={400}
-                        offset={-60}
+                        offset={-80}
                     >
                         <a href="/">
                             <img src={ExperienceIcon} alt="" />
@@ -60,7 +60,7 @@ const Header = () => {
                         className="item-nav-list"
                         smooth={true}
                         duration={400}
-                        offset={-60}
+                        offset={-80}
                     >
                         <a href="/">
                             <img src={ServicesIcon} alt="" />
@@ -72,7 +72,7 @@ const Header = () => {
                         className="item-nav-list"
                         smooth={true}
                         duration={400}
-                        offset={-60}
+                        offset={-80}
                     >
                         <a href="/">
                             <img src={ProjectsIcon} alt="" />
@@ -84,7 +84,7 @@ const Header = () => {
                         className="item-nav-list"
                         smooth={true}
                         duration={400}
-                        offset={-60}
+                        offset={-80}
                     >
                         <a href="/">
                             <img src={ContactIcon} alt="" />
