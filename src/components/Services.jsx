@@ -22,6 +22,7 @@ const Services = () => {
             <TitleSection
                 titleIcon = {ServicesIcon}
                 title = "Mis Servicios"
+                classTitle = "txt-white--dark-mode"
             />
 
             <div className="cont-services font-poppins">

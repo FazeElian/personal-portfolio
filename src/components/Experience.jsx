@@ -17,6 +17,7 @@ const Experience = () => {
             <TitleSection
                 titleIcon = {ExperienceIcon}
                 title = "Experience"
+                classTitle = "txt-white--dark-mode"
             />
 
             <div className="cont-experience font-poppins">
