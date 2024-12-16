@@ -4,6 +4,7 @@ import BannerPerson from "./components/BannerPerson";
 import Experience from "./components/Experience";
 import Services from "./components/Services";
 import Technologies from "./components/Technologies";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Experience />
         <Services />
         <Technologies />
+        <Projects />
       </main>
     </>
   );

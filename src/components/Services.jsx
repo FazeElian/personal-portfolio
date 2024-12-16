@@ -29,6 +29,7 @@ const Services = () => {
                 {ServicesList.map((item) => (
                     <motion.div
                         className="item-services bg-black-light--dark-mode"
+                        key={item.id}
                         whileHover={{ scale: 1.1 }}
                         transition={{
                             duration: .3,

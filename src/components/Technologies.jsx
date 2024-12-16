@@ -5,7 +5,11 @@ import TitleSection from './TitleSection';
 
 // Styles for this component
 import "../assets/css/components/Technologies.css";
+
+// Framer motion
 import { motion } from 'framer-motion';
+
+// List
 import TechnologiesList from '../utils/TechnologiesList';
 
 const Technologies = () => {
