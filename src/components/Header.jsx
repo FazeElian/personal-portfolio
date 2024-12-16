@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 // Styles for this component
 import "../assets/css/components/Header.css";
@@ -23,6 +23,22 @@ const Header = () => {
     const handleMenu = () => {
         setMenu(!menu);
     }
+
+    // Hook to disable menu when user scrolls a certain amount
+    useEffect(() => {
+        const handleScrollMenu = () => {
+            const scrollThreshold = 150; // Scroll Amount
+            if (window.scrollY > scrollThreshold && menu) {
+                setMenu(false);
+            }
+        };
+        
+        window.addEventListener('scroll', handleScrollMenu); // Adding Scroll Event
+        
+        return () => {
+            window.removeEventListener('scroll', handleScrollMenu);
+        };
+    }, [menu]);
 
     return (
         <header className="header">

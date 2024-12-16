@@ -121,10 +121,10 @@
     .nav-menu {
         display: flex;
         position: absolute;
-        top: 5rem;
+        top: 5.7rem;
         width: 280px;
-        height: --webkit-fill-available;
-        min-height: 82vh;
+        height: -webkit-fill-available;
+        min-height: 90vh;
         overflow: auto;
         transition: .3s;
         transform: translateX(-100%);
@@ -136,11 +136,13 @@
         justify-content: space-between;
         font-family: "Poppins", serif;
         border-right: 1px solid #BFBFBF;
+        background: transparent;
     }
 
         .nav-menu.active {
             transform: translate(0) !important;
             opacity: 1;
+            background-color: #1A1A1A;
         }
     
         .nav-list,
@@ -207,6 +209,10 @@
 @media screen and (max-width: 768px) {
     .header {
         padding: 24px 4rem 24px;
+    }
+
+    .nav-menu {
+        top: 5.4rem;
     }
 
     .nav-logo img {
