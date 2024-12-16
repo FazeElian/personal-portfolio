@@ -29,6 +29,25 @@
         --blue--dark-mode: #4FC3F7;
 }
 
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+    
+body::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: var(--black-light--dark-mode);
+    border: 1px solid var(--black--dark-mode);
+    box-shadow: inset 0 0 1px var(--gray--dark-mode);
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: var(--gray--dark-mode);
+    box-shadow: inset 0 0 2px var(--black--dark-mode);
+    border: 1px solid var(--black--dark-mode);
+}
+
 /* Background colors */
     /* Transparent */
     .bg-transparent {
