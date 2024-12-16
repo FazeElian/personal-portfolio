@@ -21,7 +21,7 @@ const Services = () => {
             {/* Title of the section component */}
             <TitleSection
                 titleIcon = {ServicesIcon}
-                title = "Mis Servicios"
+                title = "My Services"
                 classTitle = "txt-white--dark-mode"
                 name = "services"
             />
