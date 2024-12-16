@@ -16,10 +16,12 @@
     width: 25%;
     height: 100%;
     align-items: center;
+    gap: 10px;
 }
-    
-    .btn-nav-logo {
-        display: none;
+
+    .nav-logo h2 {
+        font-size: 24px;
+        font-weight: 500;
     }
 
 .nav-menu {
@@ -92,6 +94,10 @@
         padding: 3.5rem 7rem 2.7rem;
     }
 
+    .nav-logo h2 {
+        font-size: 22px;
+    }
+
     .item-nav-list a {
         font-size: 14px;
     }
@@ -105,7 +111,7 @@
 /* Responsive 1280px */
 @media screen and (max-width: 1280px) {
     .header {
-        padding: 1.8rem 5.5rem 1.8rem;
+        padding: 1.8rem 5rem 1.8rem;
         border-bottom: 1px solid #BFBFBF;
     }
 
@@ -198,6 +204,14 @@
 @media screen and (max-width: 768px) {
     .header {
         padding: 24px 4rem 24px;
+    }
+
+    .nav-logo {
+        width: auto;
+    }
+
+    .nav-logo h2 {
+        font-size: 20px;
     }
 }
 

@@ -24,9 +24,9 @@ const Header = () => {
     }
 
     return (
-        <header className="header bg-black--dark-mode">
+        <header className="header">
             <nav className="nav-logo">
-                <h1>Logo</h1>
+                <h2 className="font-audiowide txt-white-blue-gradient--dark-mode">{" {Elián Ibarra} "}</h2>
             </nav>
             <nav className={ `nav-menu bg-black--dark-mode ${menu ? "active": ""} `}>
                 <nav className="nav-list">
