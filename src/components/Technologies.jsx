@@ -26,9 +26,10 @@ const Technologies = () => {
                     <motion.div
                         className="item-technologies"
                         key={item.id}
-                        whileHover={{ scale: 1.07, color: "#F5F8FF" }}
+                        initial={{ opacity: 0, scale: 0 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
                         transition={{
-                            duration: .15,
+                            delay: item.delay,
                         }}
                     >
                         <img src={item.icon} alt={item.name} />

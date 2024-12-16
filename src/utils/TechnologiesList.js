@@ -14,46 +14,55 @@ const TechnologiesList = [
         id: 1,
         icon: HTMLIcon,
         name: "HTML",
+        delay: 0,
     },
     {
         id: 2,
         icon: CSSIcon,
         name: "CSS",
+        delay: .2,
     },
     {
         id: 3,
         icon: SASSIcon,
         name: "SASS",
+        delay: .4,
     },
     {
         id: 4,
         icon: JavascriptIcon,
         name: "Javascript",
+        delay: .6,
     },
     {
         id: 5,
         icon: ReactIcon,
         name: "React",
+        delay: .8,
     },
     {
         id: 6,
         icon: PythonIcon,
         name: "Python",
+        delay: 1,
     },
     {
         id: 7,
         icon: FlaskIcon,
         name: "Flask",
+        delay: 1.2,
     },
     {
         id: 8,
         icon: BootstrapIcon,
         name: "Bootstrap",
+        delay: 1.4,
     },
     {
         id: 9,
         icon: TailwindCSSIcon,
         name: "TailwindCSS",
+        delay: 1.6,
     },
 ];
 
