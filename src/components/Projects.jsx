@@ -20,6 +20,7 @@ const Projects = () => {
                 classTitle="txt-white-blue-gradient--dark-mode"
                 title = "Projects"
                 border = "1px solid #4FC3F7"
+                name = "projects"
             />
 
             <div className="cont-projects font-poppins">

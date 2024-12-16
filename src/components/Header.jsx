@@ -13,6 +13,9 @@ import ServicesIcon from "../assets/img/Services.png";
 import ProjectsIcon from "../assets/img/Projects.png";
 import ContactIcon from "../assets/img/Contact.png";
 
+// React scroll
+import { Link } from "react-scroll";
+
 const Header = () => {
     const [ menu, setMenu ] = useState(false);
 
@@ -27,36 +30,66 @@ const Header = () => {
             </nav>
             <nav className={ `nav-menu bg-black--dark-mode ${menu ? "active": ""} `}>
                 <nav className="nav-list">
-                    <li className="item-nav-list">
+                    <Link
+                        to="home"
+                        className="item-nav-list"
+                        smooth={true}
+                        duration={400}
+                        offset={-150}
+                    >
                         <a href="/">
                             <img src={HomeIcon} alt="" />
                             Home
                         </a>
-                    </li>
-                    <li className="item-nav-list">
+                    </Link>
+                    <Link
+                        to="experience"
+                        className="item-nav-list"
+                        smooth={true}
+                        duration={400}
+                        offset={-60}
+                    >
                         <a href="/">
                             <img src={ExperienceIcon} alt="" />
                             Experience
                         </a>
-                    </li>
-                    <li className="item-nav-list">
+                    </Link>
+                    <Link
+                        to="services"
+                        className="item-nav-list"
+                        smooth={true}
+                        duration={400}
+                        offset={-60}
+                    >
                         <a href="/">
                             <img src={ServicesIcon} alt="" />
                             Services
                         </a>
-                    </li>
-                    <li className="item-nav-list">
+                    </Link>
+                    <Link
+                        to="projects"
+                        className="item-nav-list"
+                        smooth={true}
+                        duration={400}
+                        offset={-60}
+                    >
                         <a href="/">
                             <img src={ProjectsIcon} alt="" />
                             Projects
                         </a>
-                    </li>
-                    <li className="item-nav-list">
+                    </Link>
+                    <Link
+                        to="contact"
+                        className="item-nav-list"
+                        smooth={true}
+                        duration={400}
+                        offset={-60}
+                    >
                         <a href="/">
                             <img src={ContactIcon} alt="" />
                             Contact
                         </a>
-                    </li>
+                    </Link>
                 </nav>
                 <nav className="nav-lang-mode">
                     <button className="btn-nav-lang-mode font-poppins">

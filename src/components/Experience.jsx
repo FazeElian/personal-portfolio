@@ -18,6 +18,7 @@ const Experience = () => {
                 titleIcon = {ExperienceIcon}
                 title = "Experience"
                 classTitle = "txt-white--dark-mode"
+                name = "experience"
             />
 
             <div className="cont-experience font-poppins">

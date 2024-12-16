@@ -8,9 +8,12 @@ import { IoLogoGithub } from 'react-icons/io';
 import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { RiTwitterXFill } from 'react-icons/ri';
 
+// React scroll
+import { Element } from 'react-scroll';
+
 const Contact = () => {
     return (
-        <div className="cont-contact font-poppins">
+        <Element className="cont-contact font-poppins" name="contact">
             <div className="contact-data">
                 <h1 className="txt-white--dark-mode">Contact Information</h1>
                 <h2 className="txt-white-blue-gradient--dark-mode">
@@ -101,7 +104,7 @@ const Contact = () => {
                     Send Message
                 </button>
             </form>
-        </div>
+        </Element>
     )
 }
 
