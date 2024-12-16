@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 3rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+
+    .footer,
+    .footer h2 {
+        font-size: 16px;
+        font-weight: 450;
+    }
+
+/* Responsive 1440px */
+@media screen and (max-width: 1440px) {
+    .footer {
+        padding: 2rem 0 2rem;
+    }
+
+    .footer,
+    .footer h2 {
+        font-size: 14px;
+    }
+}
+
+/* Responsive 1024px */
+@media screen and (max-width: 1024px) {
+    .footer {
+        padding: 1.7rem 0 1.7rem;
+    }
+
+    .footer,
+    .footer h2 {
+        font-size: 13px;
+    }
+}
