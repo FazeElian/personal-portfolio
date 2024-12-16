@@ -123,8 +123,7 @@
         position: absolute;
         top: 5.7rem;
         width: 280px;
-        height: -webkit-fill-available;
-        min-height: 90vh;
+        height: 90vh;
         overflow: auto;
         transition: .3s;
         transform: translateX(-100%);
@@ -230,6 +229,10 @@
         padding: 24px 35px 24px;
     }
     
+    .nav-menu {
+        height: 85vh;
+    }
+
     .nav-logo img {
         width: 200px;
         margin-top: 4px;
