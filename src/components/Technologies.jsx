@@ -28,7 +28,7 @@ const Technologies = () => {
                         key={item.id}
                         whileHover={{ scale: 1.07, color: "#F5F8FF" }}
                         transition={{
-                            duration: .3,
+                            duration: .15,
                         }}
                     >
                         <img src={item.icon} alt={item.name} />
