@@ -16,7 +16,7 @@
         flex-direction: column;
     }
 
-        .item-projects img {
+        .item-projects a img {
             width: 100%;
             height: 235px;
         }
@@ -26,6 +26,15 @@
             font-weight: 450;
             margin: 10px 0 2px;
         }
+
+            .item-projects h2 a{
+                text-decoration: none;
+                color: white;
+            }
+
+            .item-projects h2 a:hover {
+                text-decoration: underline;
+            }
 
         .item-projects p {
             font-size: 15px;

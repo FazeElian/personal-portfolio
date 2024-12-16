@@ -25,8 +25,8 @@ const Projects = () => {
 
             <div className="cont-projects font-poppins">
                 <div className="item-projects">
-                    <img src={ProjectExample} alt="" />
-                    <h2 className="txt-white--dark-mode">Name Project</h2>
+                    <a href="/"><img src={ProjectExample} alt="" /></a>
+                    <h2 className="txt-white--dark-mode"><a href="/">Name Project</a></h2>
                     <p className="txt-gray--dark-mode">Project Description, project description....</p>
 
                     <div className="btm-item-projects">
@@ -45,8 +45,8 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="item-projects">
-                    <img src={ProjectExample} alt="" />
-                    <h2 className="txt-white--dark-mode">Name Project</h2>
+                    <a href="/"><img src={ProjectExample} alt="" /></a>
+                    <h2 className="txt-white--dark-mode"><a href="/">Name Project</a></h2>
                     <p className="txt-gray--dark-mode">Project Description, project description....</p>
 
                     <div className="btm-item-projects">
@@ -65,8 +65,8 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="item-projects">
-                    <img src={ProjectExample} alt="" />
-                    <h2 className="txt-white--dark-mode">Name Project</h2>
+                    <a href="/"><img src={ProjectExample} alt="" /></a>
+                    <h2 className="txt-white--dark-mode"><a href="/">Name Project</a></h2>
                     <p className="txt-gray--dark-mode">Project Description, project description....</p>
 
                     <div className="btm-item-projects">
@@ -85,8 +85,8 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="item-projects">
-                    <img src={ProjectExample} alt="" />
-                    <h2 className="txt-white--dark-mode">Name Project</h2>
+                    <a href="/"><img src={ProjectExample} alt="" /></a>
+                    <h2 className="txt-white--dark-mode"><a href="/">Name Project</a></h2>
                     <p className="txt-gray--dark-mode">Project Description, project description....</p>
 
                     <div className="btm-item-projects">
@@ -105,8 +105,8 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="item-projects">
-                    <img src={ProjectExample} alt="" />
-                    <h2 className="txt-white--dark-mode">Name Project</h2>
+                    <a href="/"><img src={ProjectExample} alt="" /></a>
+                    <h2 className="txt-white--dark-mode"><a href="/">Name Project</a></h2>
                     <p className="txt-gray--dark-mode">Project Description, project description....</p>
 
                     <div className="btm-item-projects">
@@ -125,8 +125,8 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="item-projects">
-                    <img src={ProjectExample} alt="" />
-                    <h2 className="txt-white--dark-mode">Name Project</h2>
+                    <a href="/"><img src={ProjectExample} alt="" /></a>
+                    <h2 className="txt-white--dark-mode"><a href="/">Name Project</a></h2>
                     <p className="txt-gray--dark-mode">Project Description, project description....</p>
 
                     <div className="btm-item-projects">
