@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import "../assets/css/components/Header.css";
 
 // Images - icons
+import Logo from "../assets/img/Logo.png";
 import MenuIcon from "../assets/img/Menu.png";
 import SpanishLanguageIcon from "../assets/img/SpanishLanguage.png";
 import LightModeWhiteIcon from "../assets/img/LightModeWhite.png";
@@ -26,7 +27,7 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="nav-logo">
-                <h2 className="font-audiowide txt-white-blue-gradient--dark-mode">{" {Elián Ibarra} "}</h2>
+                <img src={Logo} alt="" />
             </nav>
             <nav className={ `nav-menu bg-black--dark-mode ${menu ? "active": ""} `}>
                 <nav className="nav-list">
