@@ -46,6 +46,11 @@
         background-color: var(--black-light--dark-mode);
     }
 
+    /* Gray */
+    .bg-gray--dark-mode {
+        background-color: var(--gray--dark-mode);
+    }
+
     /* Blue */
     .bg-blue--dark-mode {
         background-color: var(--blue--dark-mode);

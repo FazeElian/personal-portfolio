@@ -2,6 +2,7 @@
 import Header from "./components/Header";
 import BannerPerson from "./components/BannerPerson";
 import Experience from "./components/Experience";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main className="page-content">
         <BannerPerson />
         <Experience />
+        <Services />
       </main>
     </>
   );

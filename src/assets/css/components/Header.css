@@ -8,6 +8,7 @@
     color: white;
     position: fixed;
     font-family: "Montserrat", serif;
+    z-index: 1000;
 }
 
 .nav-logo {
