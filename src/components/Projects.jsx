@@ -6,13 +6,17 @@ import "../assets/css/components/Projects.css";
 // Title section component
 import TitleSection from './TitleSection';
 
-import ProjectExample from "../assets/img/ProjectExample.png";
-import html from "../assets/img/HTML.png";
-import css from "../assets/img/CSS.png";
-import js from "../assets/img/Javascript.png";
-import { IoLogoGithub } from "react-icons/io";
+// Content translations
+import { ContentTranslations } from '../utils/ContentTranslations';
+
+// Custom hook for lang
+import { useLanguage } from '../LanguageContext';
+import { IoLogoGithub } from 'react-icons/io';
 
 const Projects = () => {
+    // Hook of the lang context
+    const { lang } = useLanguage();
+
     return (
         <>
             {/* Title of the section component */}
@@ -24,126 +28,28 @@ const Projects = () => {
             />
 
             <div className="cont-projects font-poppins">
-                <div className="item-projects">
-                    <a href="/"><img src={ProjectExample} alt="" /></a>
-                    <h2 className="txt-white--dark-mode"><a href="/">Name Project</a></h2>
-                    <p className="txt-gray--dark-mode">Project Description, project description....</p>
+                {ContentTranslations[lang].ProjectsSection.items.map((item) => (
+                    <div className="item-projects" key={item.id}>
+                        <a href={item.url}><img src={item.img} alt={item.name} /></a>
+                        <h2 className="txt-white--dark-mode"><a href={item.url}>{item.name}</a></h2>
+                        <p className="txt-gray--dark-mode">{item.description}</p>
 
-                    <div className="btm-item-projects">
-                        <div className="technologies-bnt-item-projects">
-                            <img src={html} alt="" />
-                            <img src={css} alt="" />
-                            <img src={js} alt="" />
+                        <div className="btm-item-projects">
+                            <div className="technologies-bnt-item-projects">
+                                {item.technologies.map((techItem) => (
+                                    <img src={techItem.icon} key={techItem.id} alt="" />
+                                ))}
+                            </div>
+                            <a href={item.urlRepo}>
+                                <IoLogoGithub
+                                    width="22px"
+                                    height="22px"
+                                    color="#BFBFBF"
+                                />
+                            </a>
                         </div>
-                        <a href="https://github.com/">
-                            <IoLogoGithub
-                                width="22px"
-                                height="22px"
-                                color="#BFBFBF"
-                            />
-                        </a>
                     </div>
-                </div>
-                <div className="item-projects">
-                    <a href="/"><img src={ProjectExample} alt="" /></a>
-                    <h2 className="txt-white--dark-mode"><a href="/">Name Project</a></h2>
-                    <p className="txt-gray--dark-mode">Project Description, project description....</p>
-
-                    <div className="btm-item-projects">
-                        <div className="technologies-bnt-item-projects">
-                            <img src={html} alt="" />
-                            <img src={css} alt="" />
-                            <img src={js} alt="" />
-                        </div>
-                        <a href="https://github.com/">
-                            <IoLogoGithub
-                                width="22px"
-                                height="22px"
-                                color="#BFBFBF"
-                            />
-                        </a>
-                    </div>
-                </div>
-                <div className="item-projects">
-                    <a href="/"><img src={ProjectExample} alt="" /></a>
-                    <h2 className="txt-white--dark-mode"><a href="/">Name Project</a></h2>
-                    <p className="txt-gray--dark-mode">Project Description, project description....</p>
-
-                    <div className="btm-item-projects">
-                        <div className="technologies-bnt-item-projects">
-                            <img src={html} alt="" />
-                            <img src={css} alt="" />
-                            <img src={js} alt="" />
-                        </div>
-                        <a href="https://github.com/">
-                            <IoLogoGithub
-                                width="22px"
-                                height="22px"
-                                color="#BFBFBF"
-                            />
-                        </a>
-                    </div>
-                </div>
-                <div className="item-projects">
-                    <a href="/"><img src={ProjectExample} alt="" /></a>
-                    <h2 className="txt-white--dark-mode"><a href="/">Name Project</a></h2>
-                    <p className="txt-gray--dark-mode">Project Description, project description....</p>
-
-                    <div className="btm-item-projects">
-                        <div className="technologies-bnt-item-projects">
-                            <img src={html} alt="" />
-                            <img src={css} alt="" />
-                            <img src={js} alt="" />
-                        </div>
-                        <a href="https://github.com/">
-                            <IoLogoGithub
-                                width="22px"
-                                height="22px"
-                                color="#BFBFBF"
-                            />
-                        </a>
-                    </div>
-                </div>
-                <div className="item-projects">
-                    <a href="/"><img src={ProjectExample} alt="" /></a>
-                    <h2 className="txt-white--dark-mode"><a href="/">Name Project</a></h2>
-                    <p className="txt-gray--dark-mode">Project Description, project description....</p>
-
-                    <div className="btm-item-projects">
-                        <div className="technologies-bnt-item-projects">
-                            <img src={html} alt="" />
-                            <img src={css} alt="" />
-                            <img src={js} alt="" />
-                        </div>
-                        <a href="https://github.com/">
-                            <IoLogoGithub
-                                width="22px"
-                                height="22px"
-                                color="#BFBFBF"
-                            />
-                        </a>
-                    </div>
-                </div>
-                <div className="item-projects">
-                    <a href="/"><img src={ProjectExample} alt="" /></a>
-                    <h2 className="txt-white--dark-mode"><a href="/">Name Project</a></h2>
-                    <p className="txt-gray--dark-mode">Project Description, project description....</p>
-
-                    <div className="btm-item-projects">
-                        <div className="technologies-bnt-item-projects">
-                            <img src={html} alt="" />
-                            <img src={css} alt="" />
-                            <img src={js} alt="" />
-                        </div>
-                        <a href="https://github.com/">
-                            <IoLogoGithub
-                                width="22px"
-                                height="22px"
-                                color="#BFBFBF"
-                            />
-                        </a>
-                    </div>
-                </div>
+                ))}
             </div>
         </>
     )

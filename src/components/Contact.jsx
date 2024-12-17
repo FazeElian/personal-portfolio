@@ -3,105 +3,84 @@ import React from 'react'
 // Styles for this component
 import "../assets/css/components/Contact.css";
 
-// React icons
-import { IoLogoGithub } from 'react-icons/io';
-import { FaInstagram, FaLinkedin } from 'react-icons/fa';
-import { RiTwitterXFill } from 'react-icons/ri';
-
 // React scroll
 import { Element } from 'react-scroll';
 
+// Content translations
+import { ContentTranslations } from '../utils/ContentTranslations';
+
+// Custom hook for lang
+import { useLanguage } from '../LanguageContext';
+
 const Contact = () => {
+    // Hook of the lang context
+    const { lang } = useLanguage();
+
     return (
         <Element className="cont-contact font-poppins" name="contact">
             <div className="contact-data">
-                <h1 className="txt-white--dark-mode">Contact Information</h1>
+                <h1 className="txt-white--dark-mode">{ContentTranslations[lang].ContactSection.Information.title}</h1>
                 <h2 className="txt-white-blue-gradient--dark-mode">
-                    Please feel free to contact me at any time. I will reply you as soon as possible!
+                    {ContentTranslations[lang].ContactSection.Information.description}
                 </h2>
 
-                <h3 className="txt-white--dark-mode">Email:</h3>
-                <h4 className="txt-gray--dark-mode">elianibarra77@gmail.com</h4>
-
-                <h3 className="txt-white--dark-mode">Phone Number:</h3>
-                <h4 className="txt-gray--dark-mode">+57 3203139618</h4>
+                <h3 className="txt-white--dark-mode">{ContentTranslations[lang].ContactSection.Information.groups[1].label}:</h3>
+                <h4 className="txt-gray--dark-mode">{ContentTranslations[lang].ContactSection.Information.groups[1].value}</h4>
+                
+                <h3 className="txt-white--dark-mode">{ContentTranslations[lang].ContactSection.Information.groups[2].label}:</h3>
+                <h4 className="txt-gray--dark-mode">{ContentTranslations[lang].ContactSection.Information.groups[2].value}</h4>
 
                 <div className="icons-contact-data">
-                    <a href="https://github.com/" target="blank">
-                        <IoLogoGithub
-                            color="#BFBFBF"
-                        />
-                    </a>
-                    <a href="https://linkedin.com/" target="blank">
-                        <FaLinkedin
-                            color="#BFBFBF"
-                        />
-                    </a>
-                    <a href="https://instagram.com/" target="blank">
-                        <FaInstagram
-                            color="#BFBFBF"
-                        />
-                    </a>
-                    <a href="https://instagram.com/" target="blank">
-                        <RiTwitterXFill
-                            color="#BFBFBF"
-                        />
-                    </a>
+                    {ContentTranslations[lang].ContactSection.Information.socialMedia.map((item) => (
+                        <a href={item.url} target="blank" key={item.id}>
+                            {item.icon}
+                        </a>
+                    ))}
                 </div>
             </div>
             <form action="" method="get" className="send-message">
-                <h2 className="txt-white--dark-mode">Send a Message</h2>
+                <h2 className="txt-white--dark-mode">{ContentTranslations[lang].ContactSection.SendAMessage.title}</h2>
 
+                {ContentTranslations[lang].ContactSection.SendAMessage.formInputs.map((item) => (
+                    <div className="form-group" key={item.id}>
+                        <label htmlFor={item.inputName} className="txt-white--dark-mode">{item.label}</label>
+                        <input
+                            type={item.inputType}
+                            className="txt-gray--dark-mode font-poppins"
+                            name={item.inputName}
+                            id={item.inputName}
+                            placeholder={item.inputPlaceholder}
+                            required
+                        />
+                    </div>
+                ))}
                 <div className="form-group">
-                    <label htmlFor="name" className="txt-white--dark-mode">Name</label>
-                    <input
-                        type="text"
-                        className="txt-gray--dark-mode font-poppins"
-                        name="name"
-                        id="name"
-                        placeholder="Full name"
-                        required
-                    />
-                </div>
-                <div className="form-group">
-                    <label htmlFor="email" className="txt-white--dark-mode">Email</label>
-                    <input
-                        type="email"
-                        className="txt-gray--dark-mode font-poppins"
-                        name="email"
-                        id="email"
-                        placeholder="example@email.com"
-                        required
-                    />
-                </div>
-                <div className="form-group">
-                    <label htmlFor="subject" className="txt-white--dark-mode">Subject</label>
+                    <label htmlFor="subject" className="txt-white--dark-mode">{ContentTranslations[lang].ContactSection.SendAMessage.subjectSelect.label}</label>
                     <select
                         name="subject"
                         id="subject"
                         className="txt-gray--dark-mode font-poppins"
                         required
                     >
-                        <option value="" disabled selected>Reason for contact</option>
-                        <option value="job-opportunity">Job opportunity</option>
-                        <option value="service-inquiry">Service inquiry</option>
-                        <option value="freelance-colab">Freelance collaboration request</option>
-                        <option value="consulting">Consulting or advising</option>
+                        <option value="" disabled selected>{ContentTranslations[lang].ContactSection.SendAMessage.subjectSelect.disabledOption}</option>
+                        {ContentTranslations[lang].ContactSection.SendAMessage.subjectSelect.options.map((optionsItem) => (
+                            <option value={optionsItem.value} key={optionsItem.id}>{optionsItem.content}</option>
+                        ))}
                     </select>
                 </div>
                 <div className="form-group">
-                    <label htmlFor="message" className="txt-white--dark-mode">Message</label>
+                    <label htmlFor="message" className="txt-white--dark-mode">{ContentTranslations[lang].ContactSection.SendAMessage.message.label}</label>
                     <textarea
                         name="message"
                         id="message"
                         className="txt-gray--dark-mode font-poppins"
-                        placeholder="Leave your message here"
+                        placeholder={ContentTranslations[lang].ContactSection.SendAMessage.message.placeholder}
                         required
                     />
                 </div>
 
                 <button className="btn-submit font-poppins">
-                    Send Message
+                    {ContentTranslations[lang].ContactSection.SendAMessage.button}
                 </button>
             </form>
         </Element>

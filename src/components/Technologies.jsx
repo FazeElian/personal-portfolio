@@ -12,13 +12,22 @@ import { motion } from 'framer-motion';
 // List
 import TechnologiesList from '../utils/TechnologiesList';
 
+// Content translations
+import { ContentTranslations } from '../utils/ContentTranslations';
+
+// Custom hook for lang
+import { useLanguage } from '../LanguageContext';
+
 const Technologies = () => {
+    // Hook of the lang context
+    const { lang } = useLanguage();
+
     return (
         <>
             {/* Title of the section component */}
             <TitleSection
                 classTitle="txt-white-blue-gradient--dark-mode"
-                title = "Technologies & Languages"
+                title = {ContentTranslations[lang].TechnologiesSection.title}
                 border = "1px solid #4FC3F7"
             />
             <div className="cont-technologies font-poppins">

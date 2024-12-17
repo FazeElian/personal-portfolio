@@ -7,6 +7,7 @@ import "../assets/css/components/Header.css";
 import Logo from "../assets/img/Logo.png";
 import MenuIcon from "../assets/img/Menu.png";
 import SpanishLanguageIcon from "../assets/img/SpanishLanguage.png";
+import EnglishLanguageIcon from "../assets/img/EnglishLanguage.png";
 import LightModeWhiteIcon from "../assets/img/LightModeWhite.png";
 import HomeIcon from "../assets/img/Home.png";
 import ExperienceIcon from "../assets/img/Experience.png";
@@ -16,6 +17,12 @@ import ContactIcon from "../assets/img/Contact.png";
 
 // React scroll
 import { Link } from "react-scroll";
+
+// Content translations
+import { ContentTranslations } from '../utils/ContentTranslations';
+
+// Lang custom hook
+import { useLanguage } from '../LanguageContext';
 
 const Header = () => {
     const [ menu, setMenu ] = useState(false);
@@ -40,6 +47,10 @@ const Header = () => {
         };
     }, [menu]);
 
+    const { lang, toggleLanguage } = useLanguage();  // Usar el hook del contexto
+
+    const LanguageIcon = lang === "en" ? SpanishLanguageIcon : EnglishLanguageIcon;
+    
     return (
         <header className="header">
             <nav className="nav-logo">
@@ -56,7 +67,7 @@ const Header = () => {
                     >
                         <a href="/">
                             <img src={HomeIcon} alt="" />
-                            Home
+                            {ContentTranslations[lang].NavMenu[1]}
                         </a>
                     </Link>
                     <Link
@@ -68,7 +79,7 @@ const Header = () => {
                     >
                         <a href="/">
                             <img src={ExperienceIcon} alt="" />
-                            Experience
+                            {ContentTranslations[lang].NavMenu[2]}
                         </a>
                     </Link>
                     <Link
@@ -80,7 +91,7 @@ const Header = () => {
                     >
                         <a href="/">
                             <img src={ServicesIcon} alt="" />
-                            Services
+                            {ContentTranslations[lang].NavMenu[3]}
                         </a>
                     </Link>
                     <Link
@@ -92,7 +103,7 @@ const Header = () => {
                     >
                         <a href="/">
                             <img src={ProjectsIcon} alt="" />
-                            Projects
+                            {ContentTranslations[lang].NavMenu[4]}
                         </a>
                     </Link>
                     <Link
@@ -104,18 +115,18 @@ const Header = () => {
                     >
                         <a href="/">
                             <img src={ContactIcon} alt="" />
-                            Contact
+                            {ContentTranslations[lang].NavMenu[5]}
                         </a>
                     </Link>
                 </nav>
                 <nav className="nav-lang-mode">
-                    <button className="btn-nav-lang-mode font-poppins">
-                        <img src={SpanishLanguageIcon} alt="" />
-                        <h2>Change language</h2>
+                    <button className="btn-nav-lang-mode font-poppins" onClick={toggleLanguage}>
+                        <img src={LanguageIcon} alt="" />
+                        <h2>{ContentTranslations[lang].NavMenu.lang}</h2>
                     </button>
                     <button className="btn-nav-lang-mode font-poppins">
                         <img src={LightModeWhiteIcon} alt="" />
-                        <h2>Change mode</h2>
+                        <h2>{ContentTranslations[lang].NavMenu.mode}</h2>
                     </button>
                 </nav>
             </nav>

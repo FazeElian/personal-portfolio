@@ -8,21 +8,26 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+// Language context provider
+import { LanguageProvider } from "./LanguageContext";
+
 function App() {
   return (
     <>
-      {/* View components */}
-      <Header />
+      <LanguageProvider>
+        {/* View components */}
+        <Header />
 
-      <main className="page-content">
-        <BannerPerson />
-        <Experience />
-        <Services />
-        <Technologies />
-        <Projects />
-        <Contact />
-        <Footer />
-      </main>
+        <main className="page-content">
+          <BannerPerson />
+          <Experience />
+          <Services />
+          <Technologies />
+          <Projects />
+          <Contact />
+          <Footer />
+        </main>
+      </LanguageProvider>
     </>
   );
 }

@@ -9,13 +9,19 @@ import TitleSection from './TitleSection'
 // Images - icons
 import ServicesIcon from "../assets/img/Services.png";
 
-// Items
-import ServicesList from '../utils/ServicesList';
-
 // Framer Motion
 import { motion } from 'framer-motion';
 
+// Content translations
+import { ContentTranslations } from '../utils/ContentTranslations';
+
+// Custom hook for lang
+import { useLanguage } from '../LanguageContext';
+
 const Services = () => {
+    // Hook of the lang context
+    const { lang } = useLanguage();
+
     return (
         <>
             {/* Title of the section component */}
@@ -27,7 +33,7 @@ const Services = () => {
             />
 
             <div className="cont-services font-poppins">
-                {ServicesList.map((item) => (
+                {ContentTranslations[lang].ServicesSection.items.map((item) => (
                     <motion.div
                         className="item-services bg-black-light--dark-mode"
                         key={item.id}

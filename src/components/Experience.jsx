@@ -10,13 +10,22 @@ import TitleSection from './TitleSection';
 import ExperienceIcon from "../assets/img/Experience.png";
 import CompanyIcon from "../assets/img/Company.png";
 
+// Content translations
+import { ContentTranslations } from '../utils/ContentTranslations';
+
+// Custom hook for lang
+import { useLanguage } from '../LanguageContext';
+
 const Experience = () => {
+    // Hook of the lang context
+    const { lang } = useLanguage();
+
     return (
         <>
             {/* Title of the section component */}
             <TitleSection
                 titleIcon = {ExperienceIcon}
-                title = "Experience"
+                title = {ContentTranslations[lang].ExperienceSection.title}
                 classTitle = "txt-white--dark-mode"
                 name = "experience"
             />
@@ -25,22 +34,22 @@ const Experience = () => {
                 <div className="company-experience">
                     <div className="cont-company--company-experience txt-white--dark-mode">
                         <img src={CompanyIcon} alt="" />
-                        <h1>BPM Consulting SAS</h1>
+                        <h1>{ContentTranslations[lang].ExperienceSection.company}</h1>
                     </div>
-                    <h2 className="txt-white-blue-gradient--dark-mode">Front-End Web Developer</h2>
-                    <h3 className="txt-white--dark-mode">October 2023 - April - 2024</h3>
+                    <h2 className="txt-white-blue-gradient--dark-mode">{ContentTranslations[lang].ExperienceSection.role}</h2>
+                    <h3 className="txt-white--dark-mode">{ContentTranslations[lang].ExperienceSection.time}</h3>
                 </div>
                 <div className="functions-experience">
-                    <h2 className="txt-white--dark-mode">Functions Performed:</h2>
+                    <h2 className="txt-white--dark-mode">{ContentTranslations[lang].ExperienceSection.functionsPerformed.title}:</h2>
                     <ul className="list--functions-experience">
                         <li className="txt-gray--dark-mode">
-                            Development of responsive interfaces for different devices.
+                            {ContentTranslations[lang].ExperienceSection.functionsPerformed[1]}
                         </li>
                         <li className="txt-gray--dark-mode">
-                            Efficient implementation and management of dynamic and validated forms.
+                            {ContentTranslations[lang].ExperienceSection.functionsPerformed[2]}
                         </li>
                         <li className="txt-gray--dark-mode">
-                            Creation of user interfaces using Bootstrap components.
+                            {ContentTranslations[lang].ExperienceSection.functionsPerformed[3]}
                         </li>
                     </ul>
                 </div>
