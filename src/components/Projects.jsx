@@ -22,7 +22,7 @@ const Projects = () => {
             {/* Title of the section component */}
             <TitleSection
                 classTitle="txt-white-blue-gradient--dark-mode"
-                title = "Projects"
+                title = {ContentTranslations[lang].ProjectsSection.title}
                 border = "1px solid #4FC3F7"
                 name = "projects"
             />
