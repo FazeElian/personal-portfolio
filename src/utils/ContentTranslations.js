@@ -1,19 +1,19 @@
 // Services Icons
-import Service1 from "../assets/img/Service1.png";
-import Service2 from "../assets/img/Service2.png";
-import Service3 from "../assets/img/Service3.png";
-import Service4 from "../assets/img/Service4.png";
-import Service5 from "../assets/img/Service5.png";
-import Service6 from "../assets/img/Service6.png";
+import Service1 from "../assets/img/Service1.webp";
+import Service2 from "../assets/img/Service2.webp";
+import Service3 from "../assets/img/Service3.webp";
+import Service4 from "../assets/img/Service4.webp";
+import Service5 from "../assets/img/Service5.webp";
+import Service6 from "../assets/img/Service6.webp";
 
 // Projects
     // Images
-    import ProjectExample from "../assets/img/ProjectExample.png";
+    import ProjectExample from "../assets/img/ProjectExample.webp";
 
     // Icons
-    import HTMLIcon from "../assets/img/HTML.png";
-    import CSSIcon from "../assets/img/CSS.png";
-    import JavascriptIcon from "../assets/img/Javascript.png";
+    import HTMLIcon from "../assets/img/HTML.webp";
+    import CSSIcon from "../assets/img/CSS.webp";
+    import JavascriptIcon from "../assets/img/Javascript.webp";
 
 // Social media icons
 import { IoLogoGithub } from 'react-icons/io';

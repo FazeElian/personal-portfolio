@@ -7,8 +7,8 @@ import "../assets/css/components/Experience.css";
 import TitleSection from './TitleSection';
 
 // Images - icons
-import ExperienceIcon from "../assets/img/Experience.png";
-import CompanyIcon from "../assets/img/Company.png";
+import ExperienceIcon from "../assets/img/Experience.webp";
+import CompanyIcon from "../assets/img/Company.webp";
 
 // Content translations
 import { ContentTranslations } from '../utils/ContentTranslations';

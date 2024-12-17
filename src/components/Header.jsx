@@ -4,16 +4,16 @@ import React, { useState, useEffect } from 'react'
 import "../assets/css/components/Header.css";
 
 // Images - icons
-import Logo from "../assets/img/Logo.png";
-import MenuIcon from "../assets/img/Menu.png";
-import SpanishLanguageIcon from "../assets/img/SpanishLanguage.png";
-import EnglishLanguageIcon from "../assets/img/EnglishLanguage.png";
-import LightModeWhiteIcon from "../assets/img/LightModeWhite.png";
-import HomeIcon from "../assets/img/Home.png";
-import ExperienceIcon from "../assets/img/Experience.png";
-import ServicesIcon from "../assets/img/Services.png";
-import ProjectsIcon from "../assets/img/Projects.png";
-import ContactIcon from "../assets/img/Contact.png";
+import Logo from "../assets/img/Logo.webp";
+import MenuIcon from "../assets/img/Menu.webp";
+import SpanishLanguageIcon from "../assets/img/SpanishLanguage.webp";
+import EnglishLanguageIcon from "../assets/img/EnglishLanguage.webp";
+import LightModeWhiteIcon from "../assets/img/LightModeWhite.webp";
+import HomeIcon from "../assets/img/Home.webp";
+import ExperienceIcon from "../assets/img/Experience.webp";
+import ServicesIcon from "../assets/img/Services.webp";
+import ProjectsIcon from "../assets/img/Projects.webp";
+import ContactIcon from "../assets/img/Contact.webp";
 
 // React scroll
 import { Link } from "react-scroll";

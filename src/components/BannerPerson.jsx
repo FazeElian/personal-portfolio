@@ -4,7 +4,7 @@ import React from 'react'
 import "../assets/css/components/BannerPerson.css";
 
 // Images - icons
-import ProfilePhotoExample from "../assets/img/ProfilePhotoExample.jpg";
+import ProfilePhotoExample from "../assets/img/ProfilePhotoExample.webp";
 
 // React icons
 import { FaDownload } from 'react-icons/fa6';

@@ -1,13 +1,13 @@
 // Technologies and languages icons
-import HTMLIcon from "../assets/img/HTML.png";
-import CSSIcon from "../assets/img/CSS.png";
-import SASSIcon from "../assets/img/SASS.png";
-import JavascriptIcon from "../assets/img/Javascript.png";
-import ReactIcon from "../assets/img/React.png";
-import PythonIcon from "../assets/img/Python.png";
-import FlaskIcon from "../assets/img/Flask.png";
-import BootstrapIcon from "../assets/img/Bootstrap.png";
-import TailwindCSSIcon from "../assets/img/TailwindCSS.png";
+import HTMLIcon from "../assets/img/HTML.webp";
+import CSSIcon from "../assets/img/CSS.webp";
+import SASSIcon from "../assets/img/SASS.webp";
+import JavascriptIcon from "../assets/img/Javascript.webp";
+import ReactIcon from "../assets/img/React.webp";
+import PythonIcon from "../assets/img/Python.webp";
+import FlaskIcon from "../assets/img/Flask.webp";
+import BootstrapIcon from "../assets/img/Bootstrap.webp";
+import TailwindCSSIcon from "../assets/img/TailwindCSS.webp";
 
 const TechnologiesList = [
     {

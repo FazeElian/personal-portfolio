@@ -7,7 +7,7 @@ import "../assets/css/components/Services.css";
 import TitleSection from './TitleSection'
 
 // Images - icons
-import ServicesIcon from "../assets/img/Services.png";
+import ServicesIcon from "../assets/img/Services.webp";
 
 // Framer Motion
 import { motion } from 'framer-motion';
