@@ -29,7 +29,7 @@ export const ContentTranslations = {
             4: "Projects",
             5: "Contact",
             lang: "Change language",
-            mode: "Change mode"
+            github: "Repositories",
         },
         BannerPerson: {
             role: "Front-End Web Developer",
@@ -329,7 +329,7 @@ export const ContentTranslations = {
             4: "Proyectos",
             5: "Contacto",
             lang: "Cambiar idioma",
-            mode: "Cambiar modo"
+            github: "Repositorios",
         },
         BannerPerson: {
             role: "Desarrollador Web Front-End",

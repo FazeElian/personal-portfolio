@@ -8,7 +8,6 @@ import Logo from "../assets/img/Logo.webp";
 import MenuIcon from "../assets/img/Menu.webp";
 import SpanishLanguageIcon from "../assets/img/SpanishLanguage.webp";
 import EnglishLanguageIcon from "../assets/img/EnglishLanguage.webp";
-import LightModeWhiteIcon from "../assets/img/LightModeWhite.webp";
 import HomeIcon from "../assets/img/Home.webp";
 import ExperienceIcon from "../assets/img/Experience.webp";
 import ServicesIcon from "../assets/img/Services.webp";
@@ -23,6 +22,9 @@ import { ContentTranslations } from '../utils/ContentTranslations';
 
 // Lang custom hook
 import { useLanguage } from '../LanguageContext';
+
+// React icons
+import { IoLogoGithub } from 'react-icons/io';
 
 const Header = () => {
     const [ menu, setMenu ] = useState(false);
@@ -124,10 +126,12 @@ const Header = () => {
                         <img src={LanguageIcon} alt="" />
                         <h2>{ContentTranslations[lang].NavMenu.lang}</h2>
                     </button>
-                    <button className="btn-nav-lang-mode font-poppins">
-                        <img src={LightModeWhiteIcon} alt="" />
-                        <h2>{ContentTranslations[lang].NavMenu.mode}</h2>
-                    </button>
+                    <a href="https://github.com/FazeElian?tab=repositories" className="btn-nav-lang-mode font-poppins">
+                        <IoLogoGithub
+                            color="#BFBFBF"
+                        />
+                        <h2>{ContentTranslations[lang].NavMenu.github}</h2>
+                    </a>
                 </nav>
             </nav>
             <button className="btn-tgl-menu" onClick={handleMenu}>
