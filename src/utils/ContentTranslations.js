@@ -20,6 +20,10 @@ import { IoLogoGithub } from 'react-icons/io';
 import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { RiTwitterXFill } from 'react-icons/ri';
 
+// CV Files
+import CVEnglish from "../assets/docs/CV - Elián Ibarra (English).pdf";
+import CVSpanish from "../assets/docs/CV - Elián Ibarra (Spanish).pdf";
+
 export const ContentTranslations = {
     en: {
         NavMenu: {
@@ -35,6 +39,7 @@ export const ContentTranslations = {
             role: "Front-End Web Developer",
             description: "I create fluid, responsive and accessible user interfaces that bring web designs to life.",
             btnText: "Download CV",
+            CVFile: CVEnglish,
         },
         ExperienceSection: {
             title: "Experience",
@@ -335,6 +340,7 @@ export const ContentTranslations = {
             role: "Desarrollador Web Front-End",
             description: "Creo interfaces de usuario fluidas, receptivas y accesibles que dan vida a los diseños web.",
             btnText: "Descargar CV",
+            CVFile: CVSpanish,
         },
         ExperienceSection: {
             title: "Experiencia",

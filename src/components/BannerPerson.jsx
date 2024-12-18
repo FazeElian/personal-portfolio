@@ -29,7 +29,7 @@ const BannerPerson = () => {
                 {ContentTranslations[lang].BannerPerson.description}
             </p>
             
-            <a href="/" className="btn-cv font-poppins">
+            <a href={ContentTranslations[lang].BannerPerson.CVFile} className="btn-cv font-poppins" target="blank">
                 {ContentTranslations[lang].BannerPerson.btnText}
                 <FaDownload />
             </a>
