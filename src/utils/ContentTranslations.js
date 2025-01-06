@@ -105,7 +105,7 @@ export const ContentTranslations = {
                     img: ProjectExample,
                     name: "Project 1",
                     url: "/",
-                    urlRepo: "https://github.com/",
+                    urlRepo: "https://github.com/FazeElian",
                     description: "Description project 1, description project 1",
                     technologies: [
                         {
@@ -127,7 +127,7 @@ export const ContentTranslations = {
                     img: ProjectExample,
                     name: "Project 2",
                     url: "/",
-                    urlRepo: "https://github.com/",
+                    urlRepo: "https://github.com/FazeElian",
                     description: "Description project 2, description project 2",
                     technologies: [
                         {
@@ -149,7 +149,7 @@ export const ContentTranslations = {
                     img: ProjectExample,
                     name: "Project 3",
                     url: "/",
-                    urlRepo: "https://github.com/",
+                    urlRepo: "https://github.com/FazeElian",
                     description: "Description project 3, description project 3",
                     technologies: [
                         {
@@ -171,7 +171,7 @@ export const ContentTranslations = {
                     img: ProjectExample,
                     name: "Project 4",
                     url: "/",
-                    urlRepo: "https://github.com/",
+                    urlRepo: "https://github.com/FazeElian",
                     description: "Description project 4, description project 4",
                     technologies: [
                         {
@@ -193,7 +193,7 @@ export const ContentTranslations = {
                     img: ProjectExample,
                     name: "Project 5",
                     url: "/",
-                    urlRepo: "https://github.com/",
+                    urlRepo: "https://github.com/FazeElian",
                     description: "Description project 5, description project 5",
                     technologies: [
                         {
@@ -215,7 +215,7 @@ export const ContentTranslations = {
                     img: ProjectExample,
                     name: "Project 6",
                     url: "/",
-                    urlRepo: "https://github.com/",
+                    urlRepo: "https://github.com/FazeElian",
                     description: "Description project 6, description project 6",
                     technologies: [
                         {
@@ -253,22 +253,22 @@ export const ContentTranslations = {
                 socialMedia: [
                     {
                         id: 1,
-                        url: "https://github.com/",
+                        url: "https://github.com/FazeElian",
                         icon: <IoLogoGithub color="#BFBFBF" />
                     },
                     {
                         id: 2,
-                        url: "https://linkedin.com/",
+                        url: "https://www.linkedin.com/in/eli%C3%A1n-eduardo-ibarra-contreras-03b649268/",
                         icon: <FaLinkedin color="#BFBFBF" />
                     },
                     {
                         id: 3,
-                        url: "https://instagram.com/",
+                        url: "https://www.instagram.com/dev.fazeelian/",
                         icon: <FaInstagram color="#BFBFBF" />
                     },
                     {
                         id: 4,
-                        url: "https://x.com/",
+                        url: "https://x.com/Dev_Fazeelian",
                         icon: <RiTwitterXFill color="#BFBFBF" />
                     },
                 ],
@@ -406,7 +406,7 @@ export const ContentTranslations = {
                     img: ProjectExample,
                     name: "Proyecto 1",
                     url: "/",
-                    urlRepo: "https://github.com/",
+                    urlRepo: "https://github.com/FazeElian",
                     description: "Descripción del proyecto 1, descripción proyecto 1",
                     technologies: [
                         {
@@ -428,7 +428,7 @@ export const ContentTranslations = {
                     img: ProjectExample,
                     name: "Proyecto 2",
                     url: "/",
-                    urlRepo: "https://github.com/",
+                    urlRepo: "https://github.com/FazeElian",
                     description: "Descripción del proyecto 2, descripción proyecto 2",
                     technologies: [
                         {
@@ -450,7 +450,7 @@ export const ContentTranslations = {
                     img: ProjectExample,
                     name: "Proyecto 3",
                     url: "/",
-                    urlRepo: "https://github.com/",
+                    urlRepo: "https://github.com/FazeElian",
                     description: "Descripción del proyecto 3, descripción proyecto 3",
                     technologies: [
                         {
@@ -472,7 +472,7 @@ export const ContentTranslations = {
                     img: ProjectExample,
                     name: "Proyecto 4",
                     url: "/",
-                    urlRepo: "https://github.com/",
+                    urlRepo: "https://github.com/FazeElian",
                     description: "Descripción del proyecto 4, descripción proyecto 4",
                     technologies: [
                         {
@@ -494,7 +494,7 @@ export const ContentTranslations = {
                     img: ProjectExample,
                     name: "Proyecto 5",
                     url: "/",
-                    urlRepo: "https://github.com/",
+                    urlRepo: "https://github.com/FazeElian",
                     description: "Descripción del proyecto 5, descripción proyecto 5",
                     technologies: [
                         {
@@ -516,7 +516,7 @@ export const ContentTranslations = {
                     img: ProjectExample,
                     name: "Proyecto 6",
                     url: "/",
-                    urlRepo: "https://github.com/",
+                    urlRepo: "https://github.com/FazeElian",
                     description: "Descripción del proyecto 6, descripción proyecto 6",
                     technologies: [
                         {
@@ -554,22 +554,22 @@ export const ContentTranslations = {
                 socialMedia: [
                     {
                         id: 1,
-                        url: "https://github.com/",
+                        url: "https://github.com/FazeElian",
                         icon: <IoLogoGithub color="#BFBFBF" />
                     },
                     {
                         id: 2,
-                        url: "https://linkedin.com/",
+                        url: "https://www.linkedin.com/in/eli%C3%A1n-eduardo-ibarra-contreras-03b649268/",
                         icon: <FaLinkedin color="#BFBFBF" />
                     },
                     {
                         id: 3,
-                        url: "https://instagram.com/",
+                        url: "https://www.instagram.com/dev.fazeelian/",
                         icon: <FaInstagram color="#BFBFBF" />
                     },
                     {
                         id: 4,
-                        url: "https://x.com/",
+                        url: "https://x.com/Dev_Fazeelian",
                         icon: <RiTwitterXFill color="#BFBFBF" />
                     },
                 ],
