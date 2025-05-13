@@ -16,6 +16,10 @@ import Service6 from "../assets/img/Service6.webp";
     import HTMLIcon from "../assets/img/HTML.webp";
     import CSSIcon from "../assets/img/CSS.webp";
     import JavascriptIcon from "../assets/img/Javascript.webp";
+    import TypescriptIcon from "../assets/img/Typescript.png";
+    import ReactIcon from "../assets/img/React.webp";
+    import SassIcon from "../assets/img/SASS.webp";
+    import NodeJsIcon from "../assets/img/NodeJs.png";
 
 // Social media icons
 import { IoLogoGithub } from 'react-icons/io';
@@ -351,12 +355,16 @@ export const ContentTranslations = {
                         },
                         {
                             id: 2,
-                            icon: CSSIcon,
+                            icon: SassIcon,
                         },
                         {
                             id: 3,
                             icon: JavascriptIcon,
                         },
+                        {
+                            id: 4,
+                            icon: ReactIcon
+                        }
                     ]
                 },
                 {
@@ -377,8 +385,16 @@ export const ContentTranslations = {
                         },
                         {
                             id: 3,
-                            icon: JavascriptIcon,
+                            icon: TypescriptIcon,
                         },
+                        {
+                            id: 4,
+                            icon: ReactIcon
+                        },
+                        {
+                            id: 5,
+                            icon: NodeJsIcon
+                        }
                     ]
                 },
                 {
@@ -400,6 +416,10 @@ export const ContentTranslations = {
                         {
                             id: 3,
                             icon: JavascriptIcon,
+                        },
+                        {
+                            id: 4,
+                            icon: ReactIcon
                         },
                     ]
                 },
