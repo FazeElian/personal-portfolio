@@ -5,7 +5,7 @@ import "../assets/css/components/BannerPerson.css";
 
 // Images - icons
 // import ProfilePhotoExample from "../assets/img/ProfilePhotoExample.webp";
-import Avatar from "../assets/img/avatar.jpeg";
+import Avatar from "../assets/img/avatar.webp";
 
 // React icons
 import { FaDownload } from 'react-icons/fa6';
