@@ -30,8 +30,10 @@ const Projects = () => {
             <div className="cont-projects font-poppins">
                 {ContentTranslations[lang].ProjectsSection.items.map((item) => (
                     <div className="item-projects" key={item.id}>
-                        <a href={item.url}><img src={item.img} alt={item.name} /></a>
-                        <h2 className="txt-white--dark-mode"><a href={item.url}>{item.name}</a></h2>
+                        <a href={item.url} target="_blank" rel="noreferrer"><img src={item.img} alt={item.name} /></a>
+                        <h2 className="txt-white--dark-mode" target="_blank" rel="noreferrer">
+                            <a href={item.url} target="_blank" rel="noreferrer">{item.name}</a>
+                        </h2>
                         <p className="txt-gray--dark-mode">{item.description}</p>
 
                         <div className="btm-item-projects">
@@ -40,7 +42,7 @@ const Projects = () => {
                                     <img src={techItem.icon} key={techItem.id} alt="" />
                                 ))}
                             </div>
-                            <a href={item.urlRepo}>
+                            <a href={item.urlRepo} target="_blank" rel="noreferrer">
                                 <IoLogoGithub
                                     width="22px"
                                     height="22px"

@@ -8,7 +8,9 @@ import Service6 from "../assets/img/Service6.webp";
 
 // Projects
     // Images
-    import ProjectExample from "../assets/img/ProjectExample.webp";
+    import EasyFinanceImg from "../assets/img/easy-finance.jpg";
+    import ExpedienteGaravitoImg from "../assets/img/expediente-garavito.jpg";
+    import AutosirisImg from "../assets/img/autosiris-prototype.jpg";
 
     // Icons
     import HTMLIcon from "../assets/img/HTML.webp";
@@ -102,11 +104,11 @@ export const ContentTranslations = {
             items: [
                 {
                     id: 1,
-                    img: ProjectExample,
-                    name: "Project 1",
-                    url: "/",
-                    urlRepo: "https://github.com/FazeElian",
-                    description: "Description project 1, description project 1",
+                    img: EasyFinanceImg,
+                    name: "Easy Finance",
+                    url: "https://easyfinance.fun/",
+                    urlRepo: "https://github.com/FazeElian/thesis_pj-easy_finance",
+                    description: "Educational website that teaches finance to children through interactive games.",
                     technologies: [
                         {
                             id: 1,
@@ -124,11 +126,11 @@ export const ContentTranslations = {
                 },
                 {
                     id: 2,
-                    img: ProjectExample,
-                    name: "Project 2",
-                    url: "/",
-                    urlRepo: "https://github.com/FazeElian",
-                    description: "Description project 2, description project 2",
+                    img: ExpedienteGaravitoImg,
+                    name: "Expediente Garavito",
+                    url: "https://expediente-garavito.netlify.app/",
+                    urlRepo: "https://github.com/FazeElian/expediente-garavito-tnt",
+                    description: "Transmedia project with paranormal events at the Colombian School of Engineering.",
                     technologies: [
                         {
                             id: 1,
@@ -146,77 +148,11 @@ export const ContentTranslations = {
                 },
                 {
                     id: 3,
-                    img: ProjectExample,
-                    name: "Project 3",
-                    url: "/",
-                    urlRepo: "https://github.com/FazeElian",
-                    description: "Description project 3, description project 3",
-                    technologies: [
-                        {
-                            id: 1,
-                            icon: HTMLIcon,
-                        },
-                        {
-                            id: 2,
-                            icon: CSSIcon,
-                        },
-                        {
-                            id: 3,
-                            icon: JavascriptIcon,
-                        },
-                    ]
-                },
-                {
-                    id: 4,
-                    img: ProjectExample,
-                    name: "Project 4",
-                    url: "/",
-                    urlRepo: "https://github.com/FazeElian",
-                    description: "Description project 4, description project 4",
-                    technologies: [
-                        {
-                            id: 1,
-                            icon: HTMLIcon,
-                        },
-                        {
-                            id: 2,
-                            icon: CSSIcon,
-                        },
-                        {
-                            id: 3,
-                            icon: JavascriptIcon,
-                        },
-                    ]
-                },
-                {
-                    id: 5,
-                    img: ProjectExample,
-                    name: "Project 5",
-                    url: "/",
-                    urlRepo: "https://github.com/FazeElian",
-                    description: "Description project 5, description project 5",
-                    technologies: [
-                        {
-                            id: 1,
-                            icon: HTMLIcon,
-                        },
-                        {
-                            id: 2,
-                            icon: CSSIcon,
-                        },
-                        {
-                            id: 3,
-                            icon: JavascriptIcon,
-                        },
-                    ]
-                },
-                {
-                    id: 6,
-                    img: ProjectExample,
-                    name: "Project 6",
-                    url: "/",
-                    urlRepo: "https://github.com/FazeElian",
-                    description: "Description project 6, description project 6",
+                    img: AutosirisImg,
+                    name: "AutOsiris",
+                    url: "https://autosiris-prototype.netlify.app/#/admin/home",
+                    urlRepo: "https://github.com/FazeElian/TPS_FDS-2671339-AutOsiris-SIW7/tree/react-main",
+                    description: "Non-functional prototype of an app for managing sales, inventory, and products for a business.",
                     technologies: [
                         {
                             id: 1,
@@ -403,11 +339,11 @@ export const ContentTranslations = {
             items: [
                 {
                     id: 1,
-                    img: ProjectExample,
-                    name: "Proyecto 1",
-                    url: "/",
-                    urlRepo: "https://github.com/FazeElian",
-                    description: "Descripción del proyecto 1, descripción proyecto 1",
+                    img: EasyFinanceImg,
+                    name: "Easy Finance",
+                    url: "https://easyfinance.fun/",
+                    urlRepo: "https://github.com/FazeElian/thesis_pj-easy_finance",
+                    description: "Sitio web educativo que enseña finanzas a niños mediante juegos interactivos.",
                     technologies: [
                         {
                             id: 1,
@@ -425,11 +361,11 @@ export const ContentTranslations = {
                 },
                 {
                     id: 2,
-                    img: ProjectExample,
-                    name: "Proyecto 2",
-                    url: "/",
-                    urlRepo: "https://github.com/FazeElian",
-                    description: "Descripción del proyecto 2, descripción proyecto 2",
+                    img: ExpedienteGaravitoImg,
+                    name: "Expediente Garavito",
+                    url: "https://expediente-garavito.netlify.app/",
+                    urlRepo: "https://github.com/FazeElian/expediente-garavito-tnt",
+                    description: "Proyecto transmedia con eventos paranormales en la Escuela Colombiana de Ingeniería.",
                     technologies: [
                         {
                             id: 1,
@@ -447,77 +383,11 @@ export const ContentTranslations = {
                 },
                 {
                     id: 3,
-                    img: ProjectExample,
-                    name: "Proyecto 3",
-                    url: "/",
-                    urlRepo: "https://github.com/FazeElian",
-                    description: "Descripción del proyecto 3, descripción proyecto 3",
-                    technologies: [
-                        {
-                            id: 1,
-                            icon: HTMLIcon,
-                        },
-                        {
-                            id: 2,
-                            icon: CSSIcon,
-                        },
-                        {
-                            id: 3,
-                            icon: JavascriptIcon,
-                        },
-                    ]
-                },
-                {
-                    id: 4,
-                    img: ProjectExample,
-                    name: "Proyecto 4",
-                    url: "/",
-                    urlRepo: "https://github.com/FazeElian",
-                    description: "Descripción del proyecto 4, descripción proyecto 4",
-                    technologies: [
-                        {
-                            id: 1,
-                            icon: HTMLIcon,
-                        },
-                        {
-                            id: 2,
-                            icon: CSSIcon,
-                        },
-                        {
-                            id: 3,
-                            icon: JavascriptIcon,
-                        },
-                    ]
-                },
-                {
-                    id: 5,
-                    img: ProjectExample,
-                    name: "Proyecto 5",
-                    url: "/",
-                    urlRepo: "https://github.com/FazeElian",
-                    description: "Descripción del proyecto 5, descripción proyecto 5",
-                    technologies: [
-                        {
-                            id: 1,
-                            icon: HTMLIcon,
-                        },
-                        {
-                            id: 2,
-                            icon: CSSIcon,
-                        },
-                        {
-                            id: 3,
-                            icon: JavascriptIcon,
-                        },
-                    ]
-                },
-                {
-                    id: 6,
-                    img: ProjectExample,
-                    name: "Proyecto 6",
-                    url: "/",
-                    urlRepo: "https://github.com/FazeElian",
-                    description: "Descripción del proyecto 6, descripción proyecto 6",
+                    img: AutosirisImg,
+                    name: "AutOsiris",
+                    url: "https://autosiris-prototype.netlify.app/#/admin/home",
+                    urlRepo: "https://github.com/FazeElian/TPS_FDS-2671339-AutOsiris-SIW7/tree/react-main",
+                    description: "Prototipo no funcional de app para gestionar ventas, inventario y productos de un negocio.",
                     technologies: [
                         {
                             id: 1,

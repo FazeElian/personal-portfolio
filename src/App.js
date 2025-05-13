@@ -24,6 +24,8 @@ function App() {
           <Services />
           <Technologies />
           <Projects />
+          <br/>
+          <br/>
           <Contact />
           <Footer />
         </main>
