@@ -42,8 +42,8 @@ export const ContentTranslations = {
             github: "Repositories",
         },
         BannerPerson: {
-            role: "Front-End Web Developer",
-            description: "I create fluid, responsive and accessible user interfaces that bring web designs to life.",
+            role: "Full-Stack Web Developer",
+            description: "I turn ideas into clear, efficient, and user-friendly web applications.",
             btnText: "Download CV",
             CVFile: CVEnglish,
         },
@@ -120,12 +120,16 @@ export const ContentTranslations = {
                         },
                         {
                             id: 2,
-                            icon: CSSIcon,
+                            icon: SassIcon,
                         },
                         {
                             id: 3,
                             icon: JavascriptIcon,
                         },
+                        {
+                            id: 4,
+                            icon: ReactIcon
+                        }
                     ]
                 },
                 {
@@ -146,8 +150,16 @@ export const ContentTranslations = {
                         },
                         {
                             id: 3,
-                            icon: JavascriptIcon,
+                            icon: TypescriptIcon,
                         },
+                        {
+                            id: 4,
+                            icon: ReactIcon
+                        },
+                        {
+                            id: 5,
+                            icon: NodeJsIcon
+                        }
                     ]
                 },
                 {
@@ -169,6 +181,10 @@ export const ContentTranslations = {
                         {
                             id: 3,
                             icon: JavascriptIcon,
+                        },
+                        {
+                            id: 4,
+                            icon: ReactIcon
                         },
                     ]
                 },
@@ -277,8 +293,8 @@ export const ContentTranslations = {
             github: "Repositorios",
         },
         BannerPerson: {
-            role: "Desarrollador Web Front-End",
-            description: "Creo interfaces de usuario fluidas, receptivas y accesibles que dan vida a los diseños web.",
+            role: "Desarrollador Web Full-Stack",
+            description: "Transformo ideas en aplicaciones web claras, eficientes y fáciles de usar.",
             btnText: "Descargar CV",
             CVFile: CVSpanish,
         },

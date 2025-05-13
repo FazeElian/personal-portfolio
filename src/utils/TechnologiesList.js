@@ -3,11 +3,10 @@ import HTMLIcon from "../assets/img/HTML.webp";
 import CSSIcon from "../assets/img/CSS.webp";
 import SASSIcon from "../assets/img/SASS.webp";
 import JavascriptIcon from "../assets/img/Javascript.webp";
+import TypescriptIcon from "../assets/img/Typescript.webp";
 import ReactIcon from "../assets/img/React.webp";
-import PythonIcon from "../assets/img/Python.webp";
-import FlaskIcon from "../assets/img/Flask.webp";
-import BootstrapIcon from "../assets/img/Bootstrap.webp";
-import TailwindCSSIcon from "../assets/img/TailwindCSS.webp";
+import NodeJsIcon from "../assets/img/NodeJs.webp";
+import ExpressJsIcon from "../assets/img/ExpressJs.webp";
 
 const TechnologiesList = [
     {
@@ -36,33 +35,27 @@ const TechnologiesList = [
     },
     {
         id: 5,
-        icon: ReactIcon,
-        name: "React",
+        icon: TypescriptIcon,
+        name: "Typescript",
         delay: .8,
     },
     {
         id: 6,
-        icon: PythonIcon,
-        name: "Python",
+        icon: ReactIcon,
+        name: "React",
         delay: 1,
     },
     {
         id: 7,
-        icon: FlaskIcon,
-        name: "Flask",
+        icon: NodeJsIcon,
+        name: "Node JS",
         delay: 1.2,
     },
     {
         id: 8,
-        icon: BootstrapIcon,
-        name: "Bootstrap",
+        icon: ExpressJsIcon,
+        name: "Express JS",
         delay: 1.4,
-    },
-    {
-        id: 9,
-        icon: TailwindCSSIcon,
-        name: "TailwindCSS",
-        delay: 1.6,
     },
 ];
 
