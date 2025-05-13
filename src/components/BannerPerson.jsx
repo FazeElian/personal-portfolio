@@ -4,7 +4,8 @@ import React from 'react'
 import "../assets/css/components/BannerPerson.css";
 
 // Images - icons
-import ProfilePhotoExample from "../assets/img/ProfilePhotoExample.webp";
+// import ProfilePhotoExample from "../assets/img/ProfilePhotoExample.webp";
+import Avatar from "../assets/img/avatar.jpeg";
 
 // React icons
 import { FaDownload } from 'react-icons/fa6';
@@ -21,7 +22,7 @@ const BannerPerson = () => {
 
     return (
         <div className="banner-person font-poppins" name="home">
-            <img src={ProfilePhotoExample} alt="" />
+            <img src={Avatar} alt="Elián Ibarra" />
             <h1 className="txt-white--dark-mode bg-transparent">Elián Ibarra</h1>
             <h2 className="txt-white-blue-gradient--dark-mode">{ContentTranslations[lang].BannerPerson.role}</h2>
 

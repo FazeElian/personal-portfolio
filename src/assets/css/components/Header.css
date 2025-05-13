@@ -97,6 +97,7 @@
 
 .btn-tgl-menu {
     display: none;
+    background: transparent;
 }
 
 /* Responsive 1440px */
