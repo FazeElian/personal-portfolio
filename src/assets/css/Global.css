@@ -9,7 +9,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: var(--black--dark-mode);
 
     /* Colors */
         /* Dark mode */
@@ -29,6 +28,9 @@
         --blue--dark-mode: #4FC3F7;
 }
 
+body {
+    background: var(--black--dark-mode);
+}
 
 body::-webkit-scrollbar {
     width: 10px;

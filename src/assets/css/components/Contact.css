@@ -118,6 +118,7 @@
             margin-top: 8px;
             font-size: 15px;
             transition: .2s ease-in-out;
+            background-color: #1A1A1A;
         }
 
             .form-group select {

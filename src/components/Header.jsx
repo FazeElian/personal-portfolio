@@ -54,7 +54,7 @@ const Header = () => {
     const LanguageIcon = lang === "en" ? SpanishLanguageIcon : EnglishLanguageIcon;
     
     return (
-        <header className="header">
+        <header className="header bg-black--dark-mode">
             <nav className="nav-logo">
                 <img src={Logo} alt="" />
             </nav>
