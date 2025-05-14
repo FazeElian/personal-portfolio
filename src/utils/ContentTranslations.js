@@ -8,18 +8,18 @@ import Service6 from "../assets/img/Service6.webp";
 
 // Projects
     // Images
-    import EasyFinanceImg from "../assets/img/easy-finance.jpg";
-    import ExpedienteGaravitoImg from "../assets/img/expediente-garavito.jpg";
-    import AutosirisImg from "../assets/img/autosiris-prototype.jpg";
+    import EasyFinanceImg from "../assets/img/easy-finance.webp";
+    import ExpedienteGaravitoImg from "../assets/img/expediente-garavito.webp";
+    import AutosirisImg from "../assets/img/autosiris-prototype.webp";
 
     // Icons
     import HTMLIcon from "../assets/img/HTML.webp";
     import CSSIcon from "../assets/img/CSS.webp";
     import JavascriptIcon from "../assets/img/Javascript.webp";
-    import TypescriptIcon from "../assets/img/Typescript.png";
+    import TypescriptIcon from "../assets/img/Typescript.webp";
     import ReactIcon from "../assets/img/React.webp";
     import SassIcon from "../assets/img/SASS.webp";
-    import NodeJsIcon from "../assets/img/NodeJs.png";
+    import NodeJsIcon from "../assets/img/NodeJs.webp";
 
 // Social media icons
 import { IoLogoGithub } from 'react-icons/io';
