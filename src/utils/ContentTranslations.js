@@ -11,6 +11,8 @@ import Service6 from "../assets/img/Service6.webp";
     import EasyFinanceImg from "../assets/img/easy-finance.webp";
     import ExpedienteGaravitoImg from "../assets/img/expediente-garavito.webp";
     import AutosirisImg from "../assets/img/autosiris-prototype.webp";
+    import StockFlowImg from "../assets/img/stockflow-landingpage.webp";
+    import TrackMyCashImg from "../assets/img/track-my-cash.webp";
 
     // Icons
     import HTMLIcon from "../assets/img/HTML.webp";
@@ -108,11 +110,11 @@ export const ContentTranslations = {
             items: [
                 {
                     id: 1,
-                    img: EasyFinanceImg,
-                    name: "Easy Finance",
-                    url: "https://easyfinance.fun/",
-                    urlRepo: "https://github.com/FazeElian/thesis_pj-easy_finance",
-                    description: "Educational website that teaches finance to children through interactive games.",
+                    img: TrackMyCashImg,
+                    name: "Track My Cash",
+                    url: "https://track-my-cash.netlify.app/",
+                    urlRepo: "https://github.com/FazeElian/track-my-cash",
+                    description: "Web app to organize your income, expenses, and financial goals in one place.",
                     technologies: [
                         {
                             id: 1,
@@ -120,15 +122,19 @@ export const ContentTranslations = {
                         },
                         {
                             id: 2,
-                            icon: SassIcon,
+                            icon: CSSIcon,
                         },
                         {
                             id: 3,
-                            icon: JavascriptIcon,
+                            icon: TypescriptIcon,
                         },
                         {
                             id: 4,
                             icon: ReactIcon
+                        },
+                        {
+                            id: 5,
+                            icon: NodeJsIcon
                         }
                     ]
                 },
@@ -164,6 +170,58 @@ export const ContentTranslations = {
                 },
                 {
                     id: 3,
+                    img: EasyFinanceImg,
+                    name: "Easy Finance",
+                    url: "https://easyfinance.fun/",
+                    urlRepo: "https://github.com/FazeElian/thesis_pj-easy_finance",
+                    description: "Educational website that teaches finance to children through interactive games.",
+                    technologies: [
+                        {
+                            id: 1,
+                            icon: HTMLIcon,
+                        },
+                        {
+                            id: 2,
+                            icon: SassIcon,
+                        },
+                        {
+                            id: 3,
+                            icon: JavascriptIcon,
+                        },
+                        {
+                            id: 4,
+                            icon: ReactIcon
+                        }
+                    ]
+                },
+                {
+                    id: 4,
+                    img: StockFlowImg,
+                    name: "StockFlow",
+                    url: "https://stockflow-app.netlify.app/",
+                    urlRepo: "https://github.com/FazeElian/stockflow/tree/main/client",
+                    description: "Landing page of an app for managing sales, inventory, and products for a business.",
+                    technologies: [
+                        {
+                            id: 1,
+                            icon: HTMLIcon,
+                        },
+                        {
+                            id: 2,
+                            icon: CSSIcon,
+                        },
+                        {
+                            id: 3,
+                            icon: TypescriptIcon,
+                        },
+                        {
+                            id: 4,
+                            icon: ReactIcon
+                        },
+                    ]
+                },
+                {
+                    id: 5,
                     img: AutosirisImg,
                     name: "AutOsiris",
                     url: "https://autosiris-prototype.netlify.app/#/admin/home",
@@ -359,11 +417,11 @@ export const ContentTranslations = {
             items: [
                 {
                     id: 1,
-                    img: EasyFinanceImg,
-                    name: "Easy Finance",
-                    url: "https://easyfinance.fun/",
-                    urlRepo: "https://github.com/FazeElian/thesis_pj-easy_finance",
-                    description: "Sitio web educativo que enseña finanzas a niños mediante juegos interactivos.",
+                    img: TrackMyCashImg,
+                    name: "Track My Cash",
+                    url: "https://track-my-cash.netlify.app/",
+                    urlRepo: "https://github.com/FazeElian/track-my-cash",
+                    description: "App web para organizar tus ingresos, gastos y metas financieras en un solo lugar.",
                     technologies: [
                         {
                             id: 1,
@@ -371,15 +429,19 @@ export const ContentTranslations = {
                         },
                         {
                             id: 2,
-                            icon: SassIcon,
+                            icon: CSSIcon,
                         },
                         {
                             id: 3,
-                            icon: JavascriptIcon,
+                            icon: TypescriptIcon,
                         },
                         {
                             id: 4,
                             icon: ReactIcon
+                        },
+                        {
+                            id: 5,
+                            icon: NodeJsIcon
                         }
                     ]
                 },
@@ -415,6 +477,58 @@ export const ContentTranslations = {
                 },
                 {
                     id: 3,
+                    img: EasyFinanceImg,
+                    name: "Easy Finance",
+                    url: "https://easyfinance.fun/",
+                    urlRepo: "https://github.com/FazeElian/thesis_pj-easy_finance",
+                    description: "Sitio web educativo que enseña finanzas a niños mediante juegos interactivos.",
+                    technologies: [
+                        {
+                            id: 1,
+                            icon: HTMLIcon,
+                        },
+                        {
+                            id: 2,
+                            icon: SassIcon,
+                        },
+                        {
+                            id: 3,
+                            icon: JavascriptIcon,
+                        },
+                        {
+                            id: 4,
+                            icon: ReactIcon
+                        }
+                    ]
+                },
+                {
+                    id: 4,
+                    img: StockFlowImg,
+                    name: "StockFlow",
+                    url: "https://stockflow-app.netlify.app/",
+                    urlRepo: "https://github.com/FazeElian/stockflow/tree/main/client",
+                    description: "Landing page de una app para gestionar ventas, inventario y productos de un negocio.",
+                    technologies: [
+                        {
+                            id: 1,
+                            icon: HTMLIcon,
+                        },
+                        {
+                            id: 2,
+                            icon: CSSIcon,
+                        },
+                        {
+                            id: 3,
+                            icon: TypescriptIcon,
+                        },
+                        {
+                            id: 4,
+                            icon: ReactIcon
+                        },
+                    ]
+                },
+                {
+                    id: 5,
                     img: AutosirisImg,
                     name: "AutOsiris",
                     url: "https://autosiris-prototype.netlify.app/#/admin/home",
