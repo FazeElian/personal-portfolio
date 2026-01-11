@@ -26,7 +26,6 @@ import Service6 from "../assets/img/Service6.webp";
 // Social media icons
 import { IoLogoGithub } from 'react-icons/io';
 import { FaInstagram, FaLinkedin } from 'react-icons/fa';
-import { RiTwitterXFill } from 'react-icons/ri';
 
 // CV Files
 import CVEnglish from "../assets/docs/CV - Elián Ibarra (English).pdf";
@@ -172,7 +171,7 @@ export const ContentTranslations = {
                     id: 3,
                     img: EasyFinanceImg,
                     name: "Easy Finance",
-                    url: "https://easyfinance.fun/",
+                    url: "https://easyfinance-app.netlify.app/",
                     urlRepo: "https://github.com/FazeElian/thesis_pj-easy_finance",
                     description: "Educational website that teaches finance to children through interactive games.",
                     technologies: [
@@ -272,19 +271,14 @@ export const ContentTranslations = {
                     },
                     {
                         id: 2,
-                        url: "https://www.linkedin.com/in/eli%C3%A1n-eduardo-ibarra-contreras-03b649268/",
+                        url: "https://www.linkedin.com/in/eli%C3%A1n-eduardo-ibarra-contreras-50a6203a4/",
                         icon: <FaLinkedin color="#BFBFBF" />
                     },
                     {
                         id: 3,
-                        url: "https://www.instagram.com/dev.fazeelian/",
+                        url: "https://www.instagram.com/elyanzx_/",
                         icon: <FaInstagram color="#BFBFBF" />
-                    },
-                    {
-                        id: 4,
-                        url: "https://x.com/Dev_Fazeelian",
-                        icon: <RiTwitterXFill color="#BFBFBF" />
-                    },
+                    }
                 ],
             },
             SendAMessage: {
@@ -479,7 +473,7 @@ export const ContentTranslations = {
                     id: 3,
                     img: EasyFinanceImg,
                     name: "Easy Finance",
-                    url: "https://easyfinance.fun/",
+                    url: "https://easyfinance-app.netlify.app/",
                     urlRepo: "https://github.com/FazeElian/thesis_pj-easy_finance",
                     description: "Sitio web educativo que enseña finanzas a niños mediante juegos interactivos.",
                     technologies: [
@@ -579,19 +573,14 @@ export const ContentTranslations = {
                     },
                     {
                         id: 2,
-                        url: "https://www.linkedin.com/in/eli%C3%A1n-eduardo-ibarra-contreras-03b649268/",
+                        url: "https://www.linkedin.com/in/eli%C3%A1n-eduardo-ibarra-contreras-50a6203a4/",
                         icon: <FaLinkedin color="#BFBFBF" />
                     },
                     {
                         id: 3,
-                        url: "https://www.instagram.com/dev.fazeelian/",
+                        url: "https://www.instagram.com/elyanzx_/",
                         icon: <FaInstagram color="#BFBFBF" />
-                    },
-                    {
-                        id: 4,
-                        url: "https://x.com/Dev_Fazeelian",
-                        icon: <RiTwitterXFill color="#BFBFBF" />
-                    },
+                    }
                 ],
             },
             SendAMessage: {
